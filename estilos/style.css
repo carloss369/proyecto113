@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url(../ima/p17.jpeg);
+    width: 100%;
+    height: 100px;
+   
+}
+nav{
+    background-color: antiquewhite;
+    width: 100%;
+}
+aside{
+    background-image: url(../ima/p15.jpeg);
+    width: 30%;
+    float: left;
+    height: 350px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+section{
+    width: 70%;
+    background-image: url(../ima/p16.gif);
+    height: 350px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-image: url(../ima/p2.jpeg);
+    width: 100%;
+    float: left;
+    height: 100px;
+    
+}
+img {
+    width: 150px;
+    height: 142px;
+    margin-top: 18px;
+    margin-bottom: 9px;
+    margin-left: 25px;
+    margin-right: 48px;
+    border-radius: 34%;
+    box-shadow: black 11px 10px 19px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.5);
+
+}
